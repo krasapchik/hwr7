@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 1200px;    
+}
+body{
+    background-color: rgb(17, 33, 120)  ;
+}
+.mystery{
+   height: 50px;
+}
+ .mystery h1{
+    margin: 50px auto;
+    text-align: center;
+    border:  solid 3px rgb(219, 14, 140);
+    background-color: #ffff;
+    width: 40%;
+   ;
+    border-radius: 10px;
+    
+}
+.mystery h4{
+    position: relative;
+    left: 400px;
+}
+.mystery button{
+    position: relative;
+  margin-left: 1000px;
+  bottom: 95px;
+  height: 40px;
+
+  cursor: pointer;
+}
+
+.answer{
+    display: none;
+}
+.answerA{
+    display: none;
+}
+.answerB{
+    display: none;
+}
+.answerC{
+    display: none;
+}
+.answerD{
+    display: none;
+}
+.answerE{
+    display: none;
+}
+.tasks1 {
+
+   
+    left: 490px;
+    width: 30%;
+    position: relative;
+    margin-top: 40px;
+   background-color: #ffff;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.tasks2{
+    display: none;
+}
+
+.tasks1:hover{
+display: block
+}
